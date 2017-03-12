@@ -12,7 +12,7 @@
 ## 二维码示例
 -----
 
-![](https://github.com/lihongbin100/h5-qj/blob/master/doc/code.png)
+![](https://github.com/lihongbin100/h5-qj/blob/master/doc/code-1.png)
 
 ## UI设计
 
