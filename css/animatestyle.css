@@ -1,0 +1,164 @@
+body
+{
+    background-color: #000000;
+    margin: 0;
+    cursor: move;
+    overflow: hidden;
+}
+
+*{margin: 0; padding: 0}
+#container *{margin: 0; padding: 0; position: absolute; top: 0; left: 0;}
+
+/*.loading*/
+/*{*/
+    /*position: absolute;*/
+    /*top: 400px;*/
+    /*left: 245px;*/
+    /*width: 108px;*/
+    /*height: 98px;*/
+    /*background-image: url("../img/load.png");*/
+    /*-webkit-animation: loading 3s steps(57) infinite;*/
+/*}*/
+/*@-webkit-keyframes loading*/
+/*{*/
+    /*0% { background-position: 0px 0; }*/
+    /*100% { background-position: -6156px 0; }*/
+/*}*/
+
+.pig1
+{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/logo/ad.png");
+}
+
+.pig2
+{
+    width: 200px;
+    height: 60px;
+    background-image: url("../img/logo/baili.png");
+}
+
+.pig3
+{
+    width: 200px;
+    height: 94px;
+    background-image: url("../img/logo/fan.png");
+}
+
+.pig4
+{
+    width: 200px;
+    height: 66px;
+    background-image: url("../img/logo/cw.jpg");
+}
+
+.pig5
+{
+    width: 300px;
+    height: 94px;
+    background-image: url("../img/logo/sw.png");
+}
+
+.pig6
+{
+    width: 200px;
+    height: 90px;
+    background-image: url("../img/logo/lz.jpg");
+}
+
+.pig7
+{
+    width: 200px;
+    height: 100px;
+    background-image: url("../img/logo/nb.png");
+}
+
+
+.pig8
+{
+    width: 200px;
+    height: 94px;
+    background-image: url("../img/logo/pc.png");
+}
+
+
+.pig9
+{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/logo/dz.png");
+}
+
+
+.pig10
+{
+    width: 300px;
+    height: 100px;
+    background-image: url("../img/logo/a.png");
+}
+
+.pig11
+{
+    width: 763px;
+    height: 57px;
+    background-image: url("../img/logo/tr.jpg");
+}
+
+
+.pig12
+{
+    width: 556px;
+    height: 88px;
+    background-image: url("../img/logo/sbk.jpg");
+}
+
+.pig13
+{
+    width: 519px;
+    height: 95px;
+    background-image: url("../img/logo/ep.jpg");
+}
+
+
+.pig14
+{
+    width: 299px;
+    height: 75px;
+    background-image: url("../img/logo/cl.jpg");
+}
+
+.olight
+{
+    -webkit-animation: olight 2s infinite linear;
+    animation: olight 2s infinite linear;
+}
+@-webkit-keyframes olight
+{
+    0% { -webkit-transform: rotate(0deg) }
+    100% {  -webkit-transform: rotate(360deg) }
+}
+
+.slingshotForce
+{
+    width: 290px;
+    height: 211px;
+    background-image: url("../img/force.png");
+    -webkit-animation: slingshotForce .1s steps(5) forwards;
+}
+@-webkit-keyframes slingshotForce
+{
+    0% { background-position: 0px 0; }
+    100% { background-position: -1450px 0; }
+}
+
+.arrow
+{
+    -webkit-animation: arrow .8s infinite linear;
+    animation: arrow .8s infinite linear;
+}
+@-webkit-keyframes arrow
+{
+    0% { top: 810px;  opacity: 1; }
+    100% {  top: 900px;  opacity: 0;  }
+}
